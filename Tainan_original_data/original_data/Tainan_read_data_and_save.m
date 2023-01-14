@@ -1,0 +1,17 @@
+clear;close all;clc;
+seismic_data{1} = importdata('1998_0816_111303_CHY021.txt',' ',0);
+seismic_data{2} = importdata('1998_0816_111303_CHY063.txt',' ',0);
+seismic_data{3} = importdata('1999_0920_174715_CHY063.txt',' ',0);
+seismic_data{4} = importdata('1999_0920_181617_CHY063.txt',' ',0);
+seismic_data{5} = importdata('1999_0925_235249_CHY063.txt',' ',0);
+seismic_data{6} = importdata('1999_1022_021856_CHY063.txt',' ',0);
+seismic_data{7} = importdata('1999_1022_031017_CHY063.txt',' ',0);
+seismic_data{8} = importdata('2000_0331_123444_CHY021.txt',' ',0);
+seismic_data{9} = importdata('2000_0331_123444_CHY063.txt',' ',0);
+seismic_data{10} = importdata('2000_0331_123444_CHY064.txt',' ',0);
+seismic_data{11} = importdata('2000_0610_182329_CHY021.txt',' ',0);
+seismic_data{12} = importdata('2000_0610_182329_CHY063.txt',' ',0);
+seismic_data{13} = importdata('2000_0610_182329_CHY064.txt',' ',0);
+seismic_data{14} = importdata('2000_1210_100838_CHY021.txt',' ',0);
+seismic_data{15} = importdata('2000_1210_100838_CHY063.txt',' ',0);
+save Tainan.mat seismic_data;
