@@ -1,9 +1,7 @@
 # 地震資料處理
+`2022.09-2023.01`
 `宜謙論文`
 `檔案位置：C:\Users\傳Yee\Desktop\原始地震資料`
-:::spoiler 文章目錄
-[toc]
-:::
 
 ## PulseClassification-master
 `檔案位置：C:\Users\傳Yee\Desktop\原始地震資料\PulseClassification-master`
