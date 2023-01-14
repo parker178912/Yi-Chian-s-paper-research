@@ -107,6 +107,8 @@ pulse_data.is_pulse = is_pulse; % classification of the record
 pulse_data.signal = signal;
 pulse_data.pulse_th = pulse_th;
 pulse_data.resid_th = resid_th;
+pulse_data.energy_ratio = energyRatio;
+pulse_data.pgv_ratio = pgvRatio;
 
 % function to extract one wavelet
 
